@@ -55,6 +55,6 @@ if(isset($_GET['id']) &&
     <pre>
         <?php print_r($result) ?>
     </pre>
-    <h1>First CRUD | User | <!-- ici le login de l'utilisateur --></h1> 
+    <h1>First CRUD | User | <!-- ici le login de l'utilisateur --></h1>  
 </body>
 </html>
