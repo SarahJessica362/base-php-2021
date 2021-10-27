@@ -45,7 +45,7 @@ if(isset($_GET['id']) &&
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First CRUD | User | <!-- ici le login de l'utilisateur --></title>
+    <title>First CRUD | User | <?= $result['theuserlogin']?></title>
 </head>
 <body>
     <?php
@@ -55,6 +55,10 @@ if(isset($_GET['id']) &&
     <pre>
         <?php print_r($result) ?>
     </pre>
+<<<<<<< HEAD
     <h1>First CRUD | User | <!-- ici le login de l'utilisateur --></h1>  
+=======
+    <h1>First CRUD | User | <?= $result['theuserlogin']?></h1>
+>>>>>>> 0279de6548bceecc1c3f21ea42badbfe6d53b408
 </body>
 </html>
